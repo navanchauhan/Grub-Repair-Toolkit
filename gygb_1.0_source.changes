@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 09 July 2017 21:10:03 +0530
+Source: gygb
+Binary: get-your-grub-back
+Architecture: source
+Version: 1.0
+Distribution: testing
+Urgency: medium
+Maintainer: Navan Chauhan <navanchauhan@gmail.com>
+Changed-By: Navan Chauhan <navanchauhan@gmail.com>
+Description:
+ get-your-grub-back - repairs grub for efi systems
+Changes:
+ gygb (1.0) testing; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ a3f4073b832cf73d8033b087d3140061832b84ed 1046 gygb_1.0.dsc
+ f72bf89b1970d2ee7cb642fb6cb8019370fd55ab 12972 gygb_1.0.tar.xz
+ 4904cc7f33fa43b233e193bc66262a50481a3bc5 5047 gygb_1.0_source.buildinfo
+Checksums-Sha256:
+ e673d9c2adf5e302a711fa53d420742d6a1cdf70089298c7bda194bf30c259f3 1046 gygb_1.0.dsc
+ ecac89b826fb1f4d4193b6d14aaf07762504481139e1234110c49110eb531759 12972 gygb_1.0.tar.xz
+ 7ee8c29f1095c6ea646dba8374c1f04922e50cb4d9b2a98457b94401406c808c 5047 gygb_1.0_source.buildinfo
+Files:
+ 5720cc10c1e1a1e9ddb1e41a4d0f723a 1046 admin extra gygb_1.0.dsc
+ 76f30d7f14837746c35d58e920843bd9 12972 admin extra gygb_1.0.tar.xz
+ a05a33d9f65eb403f430a1dcf35d507e 5047 admin extra gygb_1.0_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEELJTVcpelY/WQ5akvKaa6QPdAq0IFAlliVM4ACgkQKaa6QPdA
+q0J73gf/aonvZRkyvlz3U7aV+2uH3TGtr7G4azaDSXaqUCrCXenkBKSod2FXosDm
+H2BKwI4++App6WWgrLl6Aurt0KewMPGrmU7LIq98ORPfzQa6MHvYZkkU7yBxhfrp
+sI3dvngdKVz0qvsjGZ4x80iVFjQegX+E9sonEMoV77Tft5JBRs4MayvGalLJahF7
+a//Vez2+ulZYUpHJaBiGRvuplwdO42RgILRzAalxQCyma92p5kFOK6kOl5bZ9Zv0
+bq+NcMVONxsBqSJmf+q31bcyssxeQEQwgQ6cjLpANRt9hAO0OMGDj5HsQ8hdICXw
+Fy6BF3v+n6O5prkvrmVC6jfygCf/pg==
+=m4uO
+-----END PGP SIGNATURE-----

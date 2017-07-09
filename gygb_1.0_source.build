@@ -1,0 +1,77 @@
+ dpkg-buildpackage -rfakeroot -us -uc -S
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-buildpackage: warning:     debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-buildpackage: warning:     debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-buildpackage: info: source package gygb
+dpkg-buildpackage: info: source version 1.0
+dpkg-buildpackage: info: source distribution testing
+dpkg-buildpackage: info: source changed by Navan Chauhan <navanchauhan@gmail.com>
+ dpkg-source --before-build gygb
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-source: warning: gygb/debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-source: warning: gygb/debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b gygb
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-source: warning: gygb/debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-source: warning: gygb/debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building gygb in gygb_1.0.tar.xz
+dpkg-source: info: building gygb in gygb_1.0.dsc
+ dpkg-genbuildinfo --build=source
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-genbuildinfo: warning:     debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-genbuildinfo: warning:     debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-genbuildinfo: warning:     debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-genbuildinfo: warning:     debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+ dpkg-genchanges --build=source >../gygb_1.0_source.changes
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-genchanges: warning:     debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-genchanges: warning:     debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-genchanges: warning:     debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-genchanges: warning:     debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build gygb
+Redundant argument in sprintf at /usr/share/perl5/Dpkg/Changelog/Entry/Debian.pm line 234, <$filehandle> line 6.
+dpkg-source: warning: gygb/debian/changelog(l6): uses full instead of abbreviated month name 'July'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-source: warning: gygb/debian/changelog(l6): cannot parse non-comformant date '09 July 2017 21:10:03 +0530'
+LINE:  -- Navan Chauhan <navanchauhan@gmail.com>  Sun, 09 July 2017 21:10:03 +0530
+dpkg-buildpackage: info: source-only upload: Debian-native package
+Now running lintian...
+W: gygb source: debhelper-but-no-misc-depends get-your-grub-back
+W: gygb source: missing-license-paragraph-in-dep5-copyright gnu/gpl v3 (paragraph at line 5)
+W: gygb source: space-in-std-shortname-in-dep5-copyright gnu/gpl v3 (paragraph at line 10)
+E: gygb source: invalid-standards-version 1.0.0
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc gygb_1.0.dsc 2C94D57297A563F590E5A92F29A6BA40F740AB42
+
+ fixup_buildinfo gygb_1.0.dsc gygb_1.0_source.buildinfo
+ signfile buildinfo gygb_1.0_source.buildinfo 2C94D57297A563F590E5A92F29A6BA40F740AB42
+
+ fixup_changes dsc gygb_1.0.dsc gygb_1.0_source.changes
+ fixup_changes buildinfo gygb_1.0_source.buildinfo gygb_1.0_source.changes
+ signfile changes gygb_1.0_source.changes 2C94D57297A563F590E5A92F29A6BA40F740AB42
+
+Successfully signed dsc, buildinfo, changes files

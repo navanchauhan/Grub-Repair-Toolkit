@@ -6,4 +6,7 @@ Tired that after you booted to windows it removed your grub ? Then you are at th
 and enter the following commands :
 
 wget https://github.com/N3V0N/GYGB/releases/download/1.0/GYGB.sh
+
+then 
+
 bash GYGB.sh

@@ -1,12 +1,14 @@
 # GYGB
-Get Your Grub Back - Get it back from the clutches of Windows on EFI systems
+##Get Your Grub Back - An AIO Toolkit to repair your grub
 
+Just boot from any live distro and enter the following commands :
 
-Tired that after you booted to windows it removed your grub ? Then you are at the right place just boot from any live distro
-and enter the following commands :
-
-`wget https://github.com/N3V0N/GYGB/releases/download/1.0/GYGB.sh`
+`wget https://github.com/N3V0N/GYGB/releases/download/2.0/gygb.sh`
 
 then 
 
-`bash GYGB.sh`
+`bash gygb.sh`
+
+
+## Screenshot
+![Screenshot](https://github.com/navanchauhan/GYGB/Docs/SS.png)

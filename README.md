@@ -11,4 +11,4 @@ then
 
 
 ## Screenshot
-![Screenshot](https://github.com/navanchauhan/GYGB/Docs/SS.png)
+![Screenshot](https://raw.githubusercontent.com/navanchauhan/GYGB/master/Docs/SS.png)

@@ -129,7 +129,8 @@ case $option in
 		;;
 98)
 	echo	Restarting
-	restart
+	sudo reboot
+
 	;;
 99)
 	clear

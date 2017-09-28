@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/github/release/navanchauhan/GYGB.svg)
 [![License](https://img.shields.io/github/license/navanchauhan/GYGB.svg)]()
-[![Build](https://img.shields.io/badge/build-Passing-blue.svg)]()
+![Issues](https://img.shields.io/github/issues/navanchauhan/GYGB.svg)
 ## Get Your Grub Back - An AIO Toolkit to repair your grub
 
 Just boot from any live distro and enter the following commands :

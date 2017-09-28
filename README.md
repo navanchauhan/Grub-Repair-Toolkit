@@ -1,4 +1,8 @@
 # GYGB
+
+![Version](https://img.shields.io/github/release/navanchauhan/GYGB.svg)
+[![License](https://img.shields.io/github/license/navanchauhan/GYGB.svg)]()
+[![Build](https://img.shields.io/badge/build-Passing-blue.svg)]()
 ## Get Your Grub Back - An AIO Toolkit to repair your grub
 
 Just boot from any live distro and enter the following commands :
@@ -12,3 +16,4 @@ then
 
 ## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/navanchauhan/GYGB/master/Docs/SS.png)
+

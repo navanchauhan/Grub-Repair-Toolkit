@@ -1,5 +1,5 @@
 # GYGB
-##Get Your Grub Back - An AIO Toolkit to repair your grub
+## Get Your Grub Back - An AIO Toolkit to repair your grub
 
 Just boot from any live distro and enter the following commands :
 

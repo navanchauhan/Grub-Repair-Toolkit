@@ -10,8 +10,7 @@ remind(){
 	echo -e "\e[1;97;101mYou Should Not Exit like this, to exit enter 99 on the next screen\e[1;92;49m"
 	echo ""
 	echo ""
-	echo "Press Enter"
-	read j
+	read -p "Press [Enter] key..."
 	main-menu
 }
 ubuntu(){
@@ -65,7 +64,7 @@ classic(){
 	clear
 	echo "Your OS is located on $linuxpart and EFI partitoin is on $efipart Right ?"
 	echo "If something is wrong then exit the script and run it again, else press enter"
-	read what
+	read -p "Press [Enter] key to start the process..."
 	echo "The process is starting.."
 	sudo mount /dev/$linuxpart /mnt
 	for i in /sys /proc /run /dev; do sudo mount --bind "$i" "/mnt$i"; done
@@ -105,7 +104,7 @@ case $option in
 				clear
 				echo "All Changes have been applied"
 				echo "Now Select the restart option after pressing Enter"
-				read nothing
+				read -p "Press [Enter] key...'
 				clear
 				main-menu
 
@@ -114,7 +113,7 @@ case $option in
 				ubuntu
 				echo "All Changes have been applied"
 				echo "Now Select the restart option after pressing Enter"
-				read nothing
+				read -p "Press [Enter] key...'
 				clear
 				main-menu
 		;;
@@ -123,7 +122,7 @@ case $option in
 			debian
 			echo "All Changes have been applied"
 			echo "Now Select the restart option after pressing Enter"
-			read nothing
+				read -p "Press [Enter] key...'
 			clear
 			main-menu
 		;;

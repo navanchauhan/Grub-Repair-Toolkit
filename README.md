@@ -1,6 +1,7 @@
 # GYGB
 
 ![Version](https://img.shields.io/github/release/navanchauhan/GYGB.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a9e4d4f270c24151aa3cd4e748a64815)](https://www.codacy.com/app/navanchauhan/GYGB?utm_source=github.com&utm_medium=referral&utm_content=navanchauhan/GYGB&utm_campaign=badger)
 [![License](https://img.shields.io/github/license/navanchauhan/GYGB.svg)]()
 ![Issues](https://img.shields.io/github/issues/navanchauhan/GYGB.svg)
 ## Get Your Grub Back - An AIO Toolkit to repair your grub

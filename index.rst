@@ -18,4 +18,4 @@ And Then
 
 ``bash GYGB.sh``
 
-** NOTE: apt-get and brew installation methods are coming very soon**
+**NOTE: apt-get and brew installation methods are coming very soon**

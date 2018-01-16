@@ -1,2 +1,0 @@
-Grub Repair Toolkit
-========================
